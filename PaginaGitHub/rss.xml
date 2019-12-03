@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="1.0">
+    <chanel>
+        <title>RSS de Juan Carlos Botella</title>
+        <link>http://paginaweb-paginaweb.apps.ca-central-1.starter.openshift-online.com/PaginaGitHub/inicio.html</link>
+        <description>Carasterísticas sobre aves</description>
+
+        <item>
+            <title>Abejaruco común</title>
+            <link>https://www.faunaiberica.org/abejaruco-comun</link>
+            <description>Ave de pecho azul</description>
+        </item>   
+
+        <item>
+            <title>Abubilla</title>
+            <link>https://www.faunaiberica.org/abubilla</link>
+            <description>Ave con colores como el canela, blanco y negro</description>
+        </item>
+
+        <item>
+            <title>Águila Imperial Ibérica</title>
+            <link>https://www.faunaiberica.org/aguila-imperial-iberica</link>
+            <description>Una de las aves más conocidas y más depredadoras</description>
+        </item>
+    
+    </chanel>
+</rss>

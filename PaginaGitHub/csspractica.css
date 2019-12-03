@@ -9,6 +9,11 @@ nav{
     text-align: center;
 }
 
+.rss{
+    margin-top: 1.5%;
+    float: right;
+}
+
 .logo{
     width:120px;
     height:120px;
