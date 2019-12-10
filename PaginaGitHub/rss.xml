@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<rss version="1.0">
-    <chanel>
+<rss version="2.0">
+    <channel>
         <title>RSS de Juan Carlos Botella</title>
         <link>http://paginaweb-paginaweb.apps.ca-central-1.starter.openshift-online.com/PaginaGitHub/inicio.html</link>
         <description>Carasterísticas sobre aves</description>
@@ -24,5 +24,5 @@
             <description>Una de las aves más conocidas y más depredadoras</description>
         </item>
     
-    </chanel>
+    </channel>
 </rss>
