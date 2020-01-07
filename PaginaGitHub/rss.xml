@@ -2,14 +2,65 @@
 
 <rss version="2.0">
     <channel>
-        <title>RSS de Juan Carlos Botella</title>
-        <link>http://paginaweb-paginaweb.apps.ca-central-1.starter.openshift-online.com/PaginaGitHub/inicio.html</link>
-        <description>Carasterísticas sobre aves</description>
+        <title>RSS de Juan Carlos Botella</title> <!--Sirve para definir el título de tu RSS-->
+        <link>http://paginaweb-paginaweb.apps.ca-central-1.starter.openshift-online.com/PaginaGitHub/inicio.html</link> <!--Define el enlace del RSS-->
+        <description>Carasterísticas sobre aves</description> <!--Se usa para describir tu canal-->
+        <category>IT/Internet/Web development</category> <!--Este elemento especifica la categoría a la que pertenece el RSS-->
+        <cloud domain="www.w3schools.com" port="80" path="/RPC" registerProcedure="NotifyMe" protocol="xml-rpc"/> <!--Se usa para actualizar la página con una nube y ser notificado inmediatamente-->
+        <copyright>2020 Refsnes Data as. All rights reserved.</copyright> <!--Se usa para notificar sobre material con derechos de autor-->
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs> <!--Especifica una URL para la documentación del formato utilizado en el documento RSS-->
+        <generator>Visual Studio Code</generator> <!--Este elemento especifica el programa utilizado para generar la fuente RSS-->
+        <image> <!--Se utiliza para insertar una imagen en el documento RSS-->
+            <url>http://www.suschem-es.org/assets/images/propias/feed-rss.png</url>
+            <title>Mi canal RSS</title>
+        </image>
+        <language>es</language> <!--Se utiliza para especificar el idioma del documento RSS-->
+        <lastBuildDate>Mon, 6 Jan 2020</lastBuildDate> <!--Especifica la última fecha de modificación del RSS-->
+        <managingEditor>xsiek@outlook.es</managingEditor> <!--Define la dirección de correo del editor del documento RSS-->
+        <pubDate>Mon, 6 Jan 2020</pubDate> <!--Especifica la última fecha de publicación del RSS-->
+        <skipDays> <!--Especifica los días en los que no se modifica el RSS-->
+            <day>Saturday</day>
+            <day>Sunday</day>
+        </skipDays>
+        <skipHours> <!--Especifica las horas en los que no se modifica el RSS-->
+            <hour>0</hour>
+            <hour>1</hour>
+            <hour>2</hour>
+            <hour>3</hour>
+            <hour>4</hour>
+            <hour>5</hour>
+            <hour>6</hour>
+            <hour>7</hour>
+            <hour>17</hour>
+            <hour>18</hour>
+            <hour>19</hour>
+            <hour>20</hour>
+            <hour>21</hour>
+            <hour>22</hour>
+            <hour>23</hour>
+        </skipHours>
+        <textinput> <!--Se utiliza para introducir un campo de texto en el RSS-->
+            <description>Search Google</description>
+            <title>Search</title>
+            <link>http://www.google.no/search?</link>
+            <name>q</name>
+        </textinput>
+        <ttl>60</ttl> <!--Especifica cada cuantos minutos se refresca la feed del RSS-->
+        <webMaster>xsiek@outlook.es</webMaster> <!--Especifica el responsable que modifica el RSS-->
+
 
         <item>
-            <title>Abejaruco común</title>
-            <link>https://www.faunaiberica.org/abejaruco-comun</link>
-            <description>Ave de pecho azul</description>
+            <title>Abejaruco común</title> <!--Sirve para definir el título de tu noticia-->
+            <link>https://www.faunaiberica.org/abejaruco-comun</link> <!--Define el enlace del elemento-->
+            <description>Ave de pecho azul</description> <!--Se usa para incluir una descripción del elemento-->
+            <author>xsiek@outlook.es</author> <!--Especifica la dirección de correo electrónico del autor del elemento-->
+            <category>Aves</category> <!--Especifica la categoría del elemento-->
+            <comments>https://www.w3schools.com/xml/comments.asp</comments> <!--Permite que un elemento se vincule a comentarios sobre ese elemento-->
+            <enclosure url="https://www.w3schools.com/media/3d.wmv" length="78645" type="video/wmv" /> <!--Permite que se incluya un archivo multimedia con un elemento-->
+            <guid>https://www.w3schools.com/xml/item0768</guid> <!--Define un identificador único para el elemento-->
+            <pubDate>Mon, 6 Jan 2020</pubDate> <!--Define un identificador único para el elemento-->
+            <source url="https://www.w3schools.com">W3Schools.com</source> <!--Define una página en la cuál te has guiado para realizar tu elemento-->
+
         </item>   
 
         <item>
