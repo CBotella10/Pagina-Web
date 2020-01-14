@@ -11,7 +11,8 @@ nav{
 
 .rss{
     margin-top: 1.5%;
-    float: right;
+    float: left;
+    margin-left: 1.5%;
 }
 
 .logo{
@@ -112,8 +113,6 @@ a{
     color: white;
 }
   
-
-  
 h1{
     text-align:center;
 }
@@ -145,13 +144,6 @@ footer {
 fieldset{
     width:700px;
 }
-
-
-
-
-
-
-
 
 
 @media only screen and (max-width: 768px) {
